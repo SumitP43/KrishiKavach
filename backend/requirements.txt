@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+apscheduler
+pydantic
+python-dotenv
+pandas
+numpy
+scikit-learn
+twilio
