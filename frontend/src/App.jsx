@@ -18,7 +18,7 @@ import {
   AlertCircle
 } from 'lucide-react';
 
-const API_BASE = 'http://localhost:8000';
+const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:8000';
 
 // Coordinates centered around Ludhiana, Punjab to focus the map
 const MAP_CENTER = [30.5000, 76.2000];
